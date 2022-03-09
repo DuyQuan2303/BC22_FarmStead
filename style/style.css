@@ -4,16 +4,56 @@
   box-sizing: border-box;
 }
 
-.header {
-  background-color: black;
-  position: absolute;
-  z-index: 999;
-  /* left: 50%;
-    transform: translateX(-50%); */
-  top: 0;
-  left: 0;
-  right: 0;
+header .navbar {
+  background-color: transparent;
+}
+
+header.scrolled {
+  padding: 0px;
+  border-bottom: none;
+  z-index: 99 !important;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+  height: 70px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  font-size: 30px;
+  /* padding: 0 20px; */
+  color: whitesmoke;
+}
+
+header .dropdown-menu a {
+  text-align: center;
+  font-size: 18px;
+}
+
+.introduction .banner-content h2 {
+  display: inherit;
+  font-size: 80px;
+  color: #f4f4f4;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0px 0px 0px -40px;
+  text-align: left;
+}
+
+.introduction .content {
+  padding-left: 40px;
+}
+
+.introduction .banner-content .bann-content h3 {
+  color: #060606;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 0px 0px 24px;
+  text-align: left;
+}
+
+.introduction .carousel .carousel-inner .carousel-item img {
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  height: 219px;
 }
