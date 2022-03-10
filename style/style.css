@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+/* HEADER */
 header .navbar {
   background-color: transparent;
 }
@@ -27,6 +29,7 @@ header .dropdown-menu a {
   text-align: center;
   font-size: 18px;
 }
+/* INTRODUCTION */
 
 .introduction .banner-content h2 {
   display: inherit;
@@ -56,6 +59,20 @@ header .dropdown-menu a {
 .introduction .carousel .carousel-inner .carousel-item img {
   width: 100%;
   height: 219px;
+}
+
+.introduction{
+  margin-bottom: 120px;
+}
+.banner-content{
+  padding-left: 60px;
+}
+.bann-content{
+  padding-left: 20px;
+}
+/* Work */
+.work {
+  padding-bottom: 120px;
 }
 
 /* Gallery */
