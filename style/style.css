@@ -9,13 +9,14 @@ header .navbar {
   background-color: transparent;
 }
 
-header.scrolled {
+.navbar.scrolled {
   padding: 0px;
   border-bottom: none;
   z-index: 99 !important;
   background-color: #fff;
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
-  height: 70px;
+  height: auto;
+  width: 100%;
 }
 
 header .navbar-nav .nav-item .nav-link {
