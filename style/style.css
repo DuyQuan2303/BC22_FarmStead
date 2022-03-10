@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* HEADER */
 header .navbar {
   background-color: transparent;
@@ -61,13 +60,13 @@ header .dropdown-menu a {
   height: 219px;
 }
 
-.introduction{
+.introduction {
   margin-bottom: 120px;
 }
-.banner-content{
+.banner-content {
   padding-left: 60px;
 }
-.bann-content{
+.bann-content {
   padding-left: 20px;
 }
 /* Work */
@@ -75,30 +74,82 @@ header .dropdown-menu a {
   padding-bottom: 120px;
 }
 
+.work .left-content h5 {
+  color: #fb811e;
+  font-family: Volkhov;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.work .left-content h3 {
+  color: #060606;
+  font-family: Volkhov;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  margin: 0px 0px 16px;
+  text-align: left;
+}
+
+.work .left-content p {
+  color: #707070;
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.work .right-content .card {
+  margin: 15px 0;
+  padding: 30px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 3%);
+}
+.work .right-content .card:hover{
+  transition: .3s;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+}
+
+.work .right-content .card .icon img{
+  margin: 15px 0;
+  max-width: 65px;
+  justify-content: center;
+}
+
+.work .right-content .card .work-product a:hover{
+color: #009f4d;
+}
+
+
+
+
+
 /* Gallery */
-.gallery__caption__pic{
-  color: white; 
-  background-color: grey; 
-  position: absolute; 
-  bottom: 10px; 
-  transform: translateX(-50%); 
-  left: 50%; 
-  width: 80%; 
-  padding: auto; 
-  text-align: center; 
-  padding: 10px 0px; 
+.gallery__caption__pic {
+  color: white;
+  background-color: grey;
+  position: absolute;
+  bottom: 10px;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 80%;
+  padding: auto;
+  text-align: center;
+  padding: 10px 0px;
   font-size: 20px;
 }
 /* Cards */
-.cards__media__custom{
+.cards__media__custom {
   border: none !important;
 }
-#media__border__custom{
+#media__border__custom {
   border: none !important;
 }
-.media__custom{
+.media__custom {
   border: none !important;
 }
-.thumbnail__img_custom{
+.thumbnail__img_custom {
   border: none !important;
 }
