@@ -89,3 +89,16 @@ header .dropdown-menu a {
   padding: 10px 0px; 
   font-size: 20px;
 }
+/* Cards */
+.cards__media__custom{
+  border: none !important;
+}
+#media__border__custom{
+  border: none !important;
+}
+.media__custom{
+  border: none !important;
+}
+.thumbnail__img_custom{
+  border: none !important;
+}
