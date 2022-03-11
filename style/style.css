@@ -8,6 +8,10 @@
 header .navbar {
   background-color: transparent;
 }
+header .container-fluid {
+  padding: 0;
+  margin: 0;
+}
 
 .navbar.scrolled {
   padding: 0px;
@@ -18,6 +22,12 @@ header .navbar {
   height: auto;
   width: 100%;
 }
+
+header .navbar-nav .icon.scrolled{
+  color: black;
+}
+
+
 
 header .navbar-nav .nav-item .nav-link {
   font-size: 30px;
