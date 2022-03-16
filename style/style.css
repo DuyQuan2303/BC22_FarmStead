@@ -236,7 +236,6 @@ header .dropdown-menu a {
   box-shadow: -1px 2px 12px -9px var(--box-shadow);
   background: var(--bg-color);
 }
-
 #cards__media__custom{
   border: none !important;
 }
@@ -273,6 +272,27 @@ header .dropdown-menu a {
   height: 10px;
   border-radius: 100%;
   bottom: 15%;
+}
+.cstm__slider__{
+  position: relative;
+}
+.slider__cstm__caption{
+  position: absolute;
+  top: 30%;
+}
+.cstm__slider__pic{
+  border-radius: 100%;
+}
+.cstm__info__pic h5{
+  color: white;
+  padding-right: 5px;
+}
+.cstm__info__pic span{
+  padding-right: 40px;
+}
+.cstm__content__pic p{
+  text-align: left;
+  color: white;
 }
 /* ---------------------------------------------------------------------- */
 /* Footer -  */
