@@ -185,3 +185,51 @@ header .dropdown-menu a {
 .thumbnail__img_custom {
   border: none !important;
 }
+/* Footer -  */
+.footer__{
+  height: 400px;
+  padding: 48px 0px;
+}
+.ft__col4__cstm{
+  font-size: 26px;
+}
+.footer__icoin__custom .btnstyle__custom{
+    font-size: 26px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    font-weight: 600;
+    background: rgb(10 191 83 / 8%);
+    border: none;
+    color: var(--secondary-color);
+    border-radius: 100%;
+    transition: all .25s ease-in-out;
+}
+.btnstyle__custom:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+.ft__taga__cstm{
+    color: var(--heading-color);
+    text-decoration: none;
+    background-color: transparent;
+    transition: .2s all;
+}
+.ft__taga__cstm:hover{
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color: transparent;
+}
+.email__cstm{
+  height: 50px;
+}
+.sent__cstm{
+  width: 80px;
+  padding-left: 25px;
+  height: 50px;
+  background-color: #009f4d;
+}
+.ft__send__cstm{
+  font-size: 20px;
+  color: white;
+}
