@@ -121,9 +121,8 @@ header .dropdown-menu a {
 .work .right-content .card .work-product a:hover {
   color: #009f4d;
 }
-
+/* ---------------------------------------------------------------------- */
 /* Service */
-
 .service .service-left-content .h5 {
   color: #ffffff;
   font-family: Volkhov;
@@ -150,7 +149,7 @@ header .dropdown-menu a {
   line-height: 27px;
   text-align: left;
 }
-
+/* ---------------------------------------------------------------------- */
 /* Gallery */
 .gallery__caption__pic {
   color: white;
@@ -172,6 +171,7 @@ header .dropdown-menu a {
 .service .card {
   border: none;
 }
+/* ---------------------------------------------------------------------- */
 /* Cards */
 .cards__media__custom {
   border: none !important;
@@ -185,6 +185,28 @@ header .dropdown-menu a {
 .thumbnail__img_custom {
   border: none !important;
 }
+/* ---------------------------------------------------------------------- */
+/* Slider */
+#slider__cstm{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 520px;
+}
+#caorosel__cstm__btn{
+  bottom: 15%;
+}
+.slider__btn__cstm li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  bottom: 15%;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
 /* Footer -  */
 .footer__{
   height: 400px;
@@ -210,26 +232,29 @@ header .dropdown-menu a {
   color: #ffffff;
 }
 .ft__taga__cstm{
-    color: var(--heading-color);
+    color: var(--primary-color);
     text-decoration: none;
     background-color: transparent;
     transition: .2s all;
 }
 .ft__taga__cstm:hover{
-  color: var(--primary-color);
+  color: var(--heading-color);
   text-decoration: none;
   background-color: transparent;
 }
 .email__cstm{
   height: 50px;
+  border-radius: 10px;
 }
 .sent__cstm{
   width: 80px;
   padding-left: 25px;
   height: 50px;
   background-color: #009f4d;
+  border-radius: 10px;
 }
 .ft__send__cstm{
   font-size: 20px;
   color: white;
 }
+/* ---------------------------------------------------------------------- */
