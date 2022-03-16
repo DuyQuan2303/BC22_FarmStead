@@ -150,10 +150,22 @@ header .dropdown-menu a {
   text-align: left;
 }
 /* ---------------------------------------------------------------------- */
+/* Service */
+.service .title-bg-content {
+  bottom: 90%;
+}
+.service .card {
+  border: none;
+}
+/* ---------------------------------------------------------------------- */
 /* Gallery */
+.gallery__{
+  padding: 50px 0px;
+  height: 700px;
+}
 .gallery__caption__pic {
   color: white;
-  background-color: grey;
+  background-color: rgb(255 255 255 / 27%);
   position: absolute;
   bottom: 10px;
   transform: translateX(-50%);
@@ -164,29 +176,89 @@ header .dropdown-menu a {
   padding: 10px 0px;
   font-size: 20px;
 }
-.service .title-bg-content {
-  bottom: 90%;
+.col__gallery__cstm{
+  margin: 0;
+  padding: 0;
 }
-
-.service .card {
-  border: none;
+.img__gallery__cstm{
+  width: 100%;
+}
+.block__gallery__cstm{
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 /* ---------------------------------------------------------------------- */
-/* Cards */
-.cards__media__custom {
+/* Quality */
+.cstm__quality__content__al{
+  padding: 50px 100px;
+}
+.quality__content__top{
+  padding-top: 10%;
+}
+.cstm__quality__content span{
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: bolder;
+}
+.cstm__quality__content h1{
+  padding: 10px 0px;
+  text-align: left;
+  line-height: 3rem;
+  font-weight: bolder;
+}
+.cstm__quality__content p{
+  padding: 10px 0px;
+}
+#cstm__quality__conten__bottom{
+  border: none !important;
+}
+.cstm__icoin__quality span{
+  padding-right: 5px;
+  color: var(--primary-color);
+}
+.media-body h4{
+  font-weight: bolder;
+}
+/* ---------------------------------------------------------------------- */
+    /* Cards */
+.cards__{
+  padding: 25px 0px;
+}
+#card__cstm__del__boder{
+  border: none !important;
+  width: 370px;
+  height: 180px;
+}
+#card__cstm__del__boder:hover{
+  border: 1px solid var(--border-color-light);
+  transition: 0.1s ease-in;
+  box-shadow: -1px 2px 12px -9px var(--box-shadow);
+  background: var(--bg-color);
+}
+
+#cards__media__custom{
   border: none !important;
 }
 #media__border__custom {
   border: none !important;
 }
-.media__custom {
-  border: none !important;
-}
 .thumbnail__img_custom {
   border: none !important;
+  width: 70px;
+  height: 70px;
+}
+.img__cstm__pst{
+  padding-right: 10px;
+}
+.media-body p{
+  padding-top: 10px;
 }
 /* ---------------------------------------------------------------------- */
 /* Slider */
+.slider__{
+  padding: 50px 0px;
+}
 #slider__cstm{
   width: 100%;
   padding-left: 0px;
@@ -202,10 +274,6 @@ header .dropdown-menu a {
   border-radius: 100%;
   bottom: 15%;
 }
-
-
-
-
 /* ---------------------------------------------------------------------- */
 /* Footer -  */
 .footer__{
